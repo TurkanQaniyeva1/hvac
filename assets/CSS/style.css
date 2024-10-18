@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    width: 180px;
+    height: 100px;
+    background: #142336;
+    text-align: center;
+    padding: 30px 25px;
+}
+
+.nav-item {
+    padding: 30px 20px;
+}
+
+.nav-item a {
+    font-size: 14px;
+    color: #142336;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand i {
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+.num {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    color: #4586D5;
+    padding: 9px 30px 7px;
+    border: 2px solid #FAD110;
+    margin: 22px 0 23px;
+}
+
+.home {
+    background: url("https://preview.colorlib.com/theme/hvacompany/img/hero/hero-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+
+.text {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.text h1 {
+    color: #142336;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 18px;
+    color: #142336;
+    padding: 20px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    font-size: 18px;
+    color: #142336;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 700;
+    background: #FAD110;
+    padding: 14px 36px 12px;
+    border-radius: 0;
+    transition: 0.8s;
+}
+.btn-1:hover{
+    color: #fff;
+}
+
+.cards {
+    position: absolute;
+    bottom: -70px;
+    left: 13px;
+}
+
+.item {
+    padding: 20px 0;
+    border: 1px solid #e1e1e1;
+
+}
+
+.item h4 {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.input:focus option {
+    display: block;
+}
+
+.bacgk {
+    background: url("https://preview.colorlib.com/theme/hvacompany/img/quote-video.jpg");
+    height: 590px;
+}
+
+.site-btn {
+    border: none;
+    display: inline-block;
+    padding: 14px 30px;
+    background: #FAD110;
+    font-family: "Saira Condensed", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.form input {
+    height: 46px;
+    /* width: 100%; */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    background: transparent;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.form input:focus {
+    background: transparent;
+}
+
+.get {
+    background: #4586D5;
+
+}
+
+.form-select {
+    outline: none;
+    appearance: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    height: 46px;
+    border-radius: 0;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    outline: none;
+    appearance: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.form-control:focus {
+    background: transparent;
+}
+
+.quote {
+    padding-left: 30px;
+}
+
+.video {
+    top: 50%;
+    left: 50%;
+}
+
+.video i {
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    background: #4586D5;
+    border-radius: 50%;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.foot-list li {
+    font-size: 15px;
+    color: #c4c4c4;
+    list-style: none;
+    margin-bottom: 14px;
+
+}
+
+footer {
+    background: #142336;
+}
+
+.recent-item {
+    color: #c4c4c4;
+}
+
+.foot-list {
+    padding: 0;
+}
+
+.follow {
+    color: #c4c4c4;
+}
+
+.social-links {
+    color: #c4c4c4;
+    padding: 0 10px;
+}
+
+.social-links i {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.l-list {
+    padding-right: 30px;
+}
+
+.txt h5 {
+    font-size: 17px;
+}
+
+.txt {
+    padding-left: 10px;
+}
+
+.recent-item img {
+    object-fit: cover;
+}
+
+.txt span {
+    font-size: 15px;
+}
+
+.sub {
+    color: #c4c4c4;
+}
+
+.email {
+    font-size: 15px;
+    color: #b5b5b5;
+    padding-left: 20px;
+    height: 46px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    margin-bottom: 15px;
+    outline: none;
+
+}
+
+.email::placeholder {
+    color: #c4c4c4;
+}
+
+.subscribe-btn {
+    font-family: "Saira Condensed", sans-serif;
+    display: inline-block;
+    padding: 14px 30px;
+    background: #FAD110;
+    border: none;
+    color: #142336;
+    margin-bottom: 20px;
+}
+
+.footer-copyright p {
+    color: #c4c4c4;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-copyright {
+    border-top: solid 1px #444444;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    height: 1px;
+    width: 170px;
+    background: #444444;
+    content: "";
+    z-index: 999;
+}
+
+.contact {
+    background: #4586D5;
+}
+
+.now span {
+    font-size: 17px;
+    color: #FAD110;
+    font-weight: 600;
+}
+
+.now h2 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.call span {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.call h2 {
+    color: #FAD110;
+    font-size: 50px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+}
+
+.oper {
+    width: 60px;
+    height: 70px;
+}
+
+.call {
+    padding: 0 20px 0 15px;
+}
+
+.call-f {
+    position: relative;
+    top: -60px;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 24px;
+    }
+
+    .call h2 {
+        font-size: 29px;
+    }
+
+    .call {
+        padding: 0;
+    }
+
+    .now h2 {
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+
+    .oper {
+        padding-bottom: 10px;
+    }
+
+    .line {
+        padding: 15px 0;
+    }
+    .line::after{
+        top: 30px;
+        width: 150px;
+    }
+}
